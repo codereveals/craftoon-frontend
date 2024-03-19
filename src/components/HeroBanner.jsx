@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import banner1 from "../assets/banner1.jpg";
 import banner2 from "../assets/banner2.jpg";
-import banner3 from "../assets/banner3.jpg";
+import banner3 from "../assets/Banner3.jpg";
 
 import "swiper/css";
 import "swiper/css/navigation";
