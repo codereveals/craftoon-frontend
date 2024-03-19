@@ -1,3 +1,4 @@
+import ProductCard from '@/components/ProductCard'
 import Wrapper from '@/components/Wrapper'
 import React from 'react'
 
@@ -26,16 +27,16 @@ const Products = () => {
                                         <div className="flex text-sm sm:text-base "><input id="Backpacks" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Backpacks" /><label for="Backpacks" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Painting</span></label></div>
                                     </div>
                                     <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="Travel Bags" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Travel Bags" /><label for="Travel Bags" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Travel Bags</span></label></div>
+                                        <div className="flex text-sm sm:text-base "><input id="Travel Bags" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Travel Bags" /><label for="Travel Bags" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Couple Gift</span></label></div>
                                     </div>
                                     <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="Laptop Sleeves" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Laptop Sleeves" /><label for="Laptop Sleeves" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Laptop Sleeves</span></label></div>
+                                        <div className="flex text-sm sm:text-base "><input id="Laptop Sleeves" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Laptop Sleeves" /><label for="Laptop Sleeves" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Customize Gift</span></label></div>
                                     </div>
                                     <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="Organization" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Organization" /><label for="Organization" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Organization</span></label></div>
+                                        <div className="flex text-sm sm:text-base "><input id="Organization" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Organization" /><label for="Organization" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Birthday</span></label></div>
                                     </div>
                                     <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="Accessories" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Accessories" /><label for="Accessories" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Accessories</span></label></div>
+                                        <div className="flex text-sm sm:text-base "><input id="Accessories" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Accessories" /><label for="Accessories" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Anniversary</span></label></div>
                                     </div>
                                 </div>
                                 <div className="relative flex flex-col py-8 space-y-4">
@@ -53,7 +54,7 @@ const Products = () => {
                                         <div className="flex text-sm sm:text-base "><input id="Black" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Black" /><label for="Black" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Black</span></label></div>
                                     </div>
                                     <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="Brown" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Brown" /><label for="Brown" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Brown</span></label></div>
+                                        <div className="flex text-sm sm:text-base "><input id="Brown" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Brown" /><label for="Brown" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">pink</span></label></div>
                                     </div>
                                     <div className="">
                                         <div className="flex text-sm sm:text-base "><input id="Green" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Green" /><label for="Green" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Green</span></label></div>
@@ -62,27 +63,7 @@ const Products = () => {
                                         <div className="flex text-sm sm:text-base "><input id="Navy" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="Navy" /><label for="Navy" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">Navy</span></label></div>
                                     </div>
                                 </div>
-                                <div className="relative flex flex-col py-8 space-y-4">
-                                    <h3 className="font-semibold mb-2.5">Sizes</h3>
-                                    <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="XS" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="XS" /><label for="XS" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">XS</span></label></div>
-                                    </div>
-                                    <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="S" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="S" /><label for="S" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">S</span></label></div>
-                                    </div>
-                                    <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="M" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="M" /><label for="M" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">M</span></label></div>
-                                    </div>
-                                    <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="L" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="L" /><label for="L" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">L</span></label></div>
-                                    </div>
-                                    <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="XL" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="XL" /><label for="XL" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">XL</span></label></div>
-                                    </div>
-                                    <div className="">
-                                        <div className="flex text-sm sm:text-base "><input id="2XL" className="focus:ring-action-primary text-primary-500 rounded border-slate-400 hover:border-slate-700 bg-transparent dark:border-slate-700 dark:hover:border-slate-500 dark:checked:bg-primary-500 focus:ring-primary-500 w-5 h-5" type="checkbox" name="2XL" /><label for="2XL" className="pl-2.5 sm:pl-3.5 flex flex-col flex-1 justify-center select-none"><span className="text-slate-900 dark:text-slate-100 text-sm font-normal ">2XL</span></label></div>
-                                    </div>
-                                </div>
+
                                 <div className="relative flex flex-col py-8 space-y-5 pr-3">
                                     <div className="space-y-5">
                                         <span className="font-semibold">Price range</span>
@@ -127,7 +108,30 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="flex-shrink-0 mb-10 lg:mb-0 lg:mx-4 border-t lg:border-t-0"></div>
-                        <div className='flex-1'></div>
+                        <div className='flex-1'>
+                            <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+                                <ProductCard />
+                                <ProductCard />
+                                <ProductCard />
+                                <ProductCard />
+                                <ProductCard />
+                                <ProductCard />
+                            </div>
+
+                            {/* pagination */}
+
+                            <div className="flex flex-col mt-12 lg:mt-16 space-y-5 sm:space-y-0 sm:space-x-3 sm:flex-row sm:justify-between sm:items-center">
+                                <nav className="nc-Pagination inline-flex space-x-1 text-base font-medium "><span className="inline-flex w-11 h-11 items-center justify-center rounded-full bg-primary-6000 text-white focus:outline-none">1</span><a className="inline-flex w-11 h-11 items-center justify-center rounded-full bg-white hover:bg-neutral-100 border border-neutral-200 text-neutral-6000 dark:text-neutral-400 dark:bg-neutral-900 dark:hover:bg-neutral-800 dark:border-neutral-700 focus:outline-none" href="/">2</a><a className="inline-flex w-11 h-11 items-center justify-center rounded-full bg-white hover:bg-neutral-100 border border-neutral-200 text-neutral-6000 dark:text-neutral-400 dark:bg-neutral-900 dark:hover:bg-neutral-800 dark:border-neutral-700 focus:outline-none" href="/">3</a><a className="inline-flex w-11 h-11 items-center justify-center rounded-full bg-white hover:bg-neutral-100 border border-neutral-200 text-neutral-6000 dark:text-neutral-400 dark:bg-neutral-900 dark:hover:bg-neutral-800 dark:border-neutral-700 focus:outline-none" href="/">4</a></nav>
+                                <button disabled="" className="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium py-3 px-4 sm:py-3.5 sm:px-6  ttnc-ButtonPrimary disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0">
+                                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle>
+                                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                    </svg>
+                                    Show me more
+                                </button>
+                            </div>
+
+                        </div>
 
                     </div>
 
