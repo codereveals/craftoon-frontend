@@ -76,7 +76,7 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 px-5">Latest Collection
           <span className="text-neutral-500 text-lg font-light block mt-1">A Fresh Collection for you</span>
         </h2>
-        <div className="grid grid-cols-4 sm:grid-cols-4 md:col-span-3 lg:col-span-4 gap-2">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
@@ -122,7 +122,7 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 px-5">Best Special Gifts
           <span className="text-neutral-500 text-lg font-light block mt-1">One Gift Box at a Time</span>
         </h2>
-        <div className="grid grid-cols-4 sm:grid-cols-4 md:col-span-3 lg:col-span-4 gap-2">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
@@ -133,7 +133,7 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 px-5">Delight Couple Club
           <span className="text-neutral-500 text-lg font-light block mt-1">Unexpected Pleasures, Wrapped in Happiness</span>
         </h2>
-        <div className="grid grid-cols-4 sm:grid-cols-4 md:col-span-3 lg:col-span-4 gap-2">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
@@ -174,7 +174,7 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-8 px-5">Customized Gift
           <span className="text-neutral-500 text-lg font-light block mt-1">Discover the Art of Giving</span>
         </h2>
-        <div className="grid grid-cols-4 sm:grid-cols-4 md:col-span-3 lg:col-span-4 gap-2">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />

@@ -61,7 +61,7 @@ const ProductCard = () => {
       </div>
 
       {/* butoon  */}
-      <div class=" inset-x-1 group-hover:opacity-100 group-hover:visible transition-all px-3 pb-5">
+      <div class=" inset-x-1 text-center group-hover:opacity-100 group-hover:visible transition-all px-3 pb-5">
         <button class="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-xs py-2 px-4  ttnc-ButtonPrimary disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0">
           <MdOutlineShoppingBag />
 

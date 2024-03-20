@@ -169,18 +169,24 @@ const Footer = () => {
             </div>
           </div>
         </Wrapper>
-        <div className="bg-pink-300 px-8 py-4 rounded-md ">
-          <Wrapper className="flex justify-between py-2">
+        <div className="bg-pink-300 px-2 md:px-8 py-4 rounded-md ">
+          <Wrapper className=" block text-center md:flex justify-center md:justify-between py-2">
             <div>
-              <p>&copy; Craftoon Inc. </p>
+              <p className="text-sm">
+                &copy; Craftoon Inc. | All Right Reserved.{" "}
+              </p>
             </div>
             <div>
-              <ul className="flex gap-3">
+              <ul className="flex justify-center gap-3">
                 <li>
-                  <Link href="">terms and Condition</Link>
+                  <Link href="" className="text-sm">
+                    Terms and Condition
+                  </Link>
                 </li>
                 <li>
-                  <Link href="">Privacy Policy</Link>
+                  <Link href="" className="text-sm">
+                    Privacy Policy
+                  </Link>
                 </li>
               </ul>
             </div>

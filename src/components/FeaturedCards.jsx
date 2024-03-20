@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const FeaturedCards = () => {
   return (
-    <div className="max-w-[49%]">
+    <div className=" max-w-full md:max-w-[49%]">
       <Link href="">
         <Image
           src={feature1}
