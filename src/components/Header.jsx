@@ -23,7 +23,7 @@ const Header = () => {
     >
       <Wrapper>
         <div className="flex justify-between items-center">
-          <Link href="">
+          <Link href="/">
             <Image
               src={logo}
               alt=""
